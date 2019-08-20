@@ -15,8 +15,6 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
-
-import com.in28minutes.rest.webservics.restfulwebservices.todo.Todo;
 @CrossOrigin(origins="http://localhost:4200")
 @RestController
 public class TodoResource {
